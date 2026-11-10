@@ -1,0 +1,90 @@
+:root{
+   
+}
+body{
+    background-color: rgb(231, 237, 243);
+}
+.main{
+
+}
+
+.sub{
+   
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+   gap:130px;
+   padding-top: 50px;
+   
+}
+.card{
+    background-color: white;
+    width:350px;
+    text-align: center;
+    border-radius: 16px;
+    font-family:sans-serif ;
+   box-shadow: 1px 5px 15px grey;
+}
+.card:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.02);
+    box-shadow: 1px 5px 10px;
+}
+
+.card p{
+    color: grey;
+}
+.card img{
+     width:350px;
+    height:400px;
+    border-radius:16px 16px 0 0;
+    object-fit: cover;
+    border-bottom: 1px solid rgb(6, 32, 174);
+    
+   
+}
+
+.btn{
+   padding: 20px;
+}
+.more-btn{
+    border-radius: 10px;
+    background-color: transparent;
+    color:rgb(6, 32, 174);
+    padding:10px;
+    margin:2px 10px;
+    font-weight: 700;
+    font-size: large;
+    border: 2px solid rgb(6, 32, 174);
+}
+.more-btn:hover{
+    transition: 0.4s;
+    background-color:rgb(6, 32, 174);
+    color: white;
+}
+header{
+    border-bottom: 4px solid rgb(6, 32, 174);
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header input{
+width: 200px;
+height: 30px;
+border-radius: 10px;
+padding-left: 10px;
+border: 2px solid rgb(6, 32, 174);
+}
+h1{
+    text-align: center;
+    color: rgb(4, 4, 106);
+     padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+#year{
+    width: 200px;
+height: 30px;
+border-radius: 10px;
+padding-left: 10px;
+border: 2px solid rgb(6, 32, 174);
+}
